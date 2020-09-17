@@ -23,3 +23,41 @@ h2,
 h3 {
   font-weight: 500;
 }
+
+/* Header */
+.main-header{
+  background-color: #3e3494;
+}
+
+.header-nav{
+ line-height: 80px;
+ text-transform: uppercase;
+ font-size: 12px;
+}
+
+.header-nav li a{
+  text-decoration: none;
+  color: white;
+}
+
+.clearfix::after{
+  display: table;
+  content: "";
+  clear: both;
+}
+
+.float-left{
+  float: left;
+}
+
+.header-nav .header-logo{
+ width: 15%;
+}
+
+.header-nav .header-nav-center{
+ width: 45%;
+}
+
+.header-nav .header-nav-right{
+ width: 40%;
+}
