@@ -18,6 +18,22 @@ body{
  margin: 0 auto;
 }
 
+.clearfix::after{
+ display: table;
+ content: "";
+ clear: both;
+}
+
+.w-50{
+ width: 50%;
+}
+
+.col-3{
+ width: calc(100% / 3);
+ padding: 0 20px;
+ float: left;
+}
+
 /* Menu */
 .menu-inline li{
  display: inline-block;
@@ -39,6 +55,16 @@ h3 {
   font-weight: 500;
 }
 
+h2{
+  margin-bottom: 15px;
+  font-size: 20px;
+  color: #000;
+}
+
+.text-center{
+ text-align: center;
+}
+
 /* button */
 .btn{
  border: 1px solid white;
@@ -48,11 +74,18 @@ h3 {
  display: inline-block;
  text-align: center;
  line-height: 23px;
+ text-decoration: none;
+ color: white;
+ text-transform: uppercase;
 }
 
 .btn-green{
  background-color: #24f524cf;
  border: none;
+}
+
+.btn-large{
+ padding: 20px;
 }
 
 /* Header */
@@ -80,11 +113,7 @@ h3 {
  vertical-align: middle;
 }
 
-.clearfix::after{
-  display: table;
-  content: "";
-  clear: both;
-}
+
 
 .float-left{
   float: left;
@@ -100,4 +129,49 @@ h3 {
 
 .header-nav .header-nav-right{
  width: 40%;
+}
+
+.header-nav .header-nav-right{
+  text-align: right;
+}
+
+/* jumbotron */
+
+.jumbotron{
+ position: relative;
+ height: 480px;
+}
+
+.jumbotron-text{
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translatey(-50%);
+}
+
+.jumbotron-text h1{
+ margin-bottom: 30px;
+ font-size: 56px;
+ color: white;
+}
+
+/* Main */
+
+/* efficency */
+.efficency{
+ padding: 40px 15px;
+ background-color:  #8080808c;
+}
+
+.efficency p{
+ font-size: 20px;
+}
+
+/* Info */
+.info{
+ padding: 40px 15px;
+}
+
+.info img{
+ height: 150px;
 }
