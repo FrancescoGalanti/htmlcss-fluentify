@@ -17,6 +17,21 @@ body{
  width: 1200px;
  margin: 0 auto;
 }
+
+/* Menu */
+.menu-inline li{
+ display: inline-block;
+ padding: 0 10px;
+}
+
+.menu-inline li:first-child{
+ padding-left: 0px;
+}
+
+.menu-inline li:last-child{
+ padding-right: 0px;
+}
+
 /* tipographi */
 h1,
 h2,
@@ -24,9 +39,30 @@ h3 {
   font-weight: 500;
 }
 
+/* button */
+.btn{
+ border: 1px solid white;
+ padding: 5px 10px;
+ border-radius: 5px;
+ min-width: 100px;
+ display: inline-block;
+ text-align: center;
+ line-height: 23px;
+}
+
+.btn-green{
+ background-color: #24f524cf;
+ border: none;
+}
+
 /* Header */
 .main-header{
   background-color: #3e3494;
+  height: 560px;
+  background-image: url("img/background-header.png");
+  background-repeat: no-repeat;
+  background-size: 1000px;
+  background-position: right bottom;
 }
 
 .header-nav{
@@ -38,6 +74,10 @@ h3 {
 .header-nav li a{
   text-decoration: none;
   color: white;
+}
+
+.header-nav .header-logo img{
+ vertical-align: middle;
 }
 
 .clearfix::after{
