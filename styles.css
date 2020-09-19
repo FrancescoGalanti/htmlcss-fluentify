@@ -215,12 +215,66 @@ h2 .big{
  margin-bottom: 20px;
 }
 
+
+/* Footer */
+
+.structure{
+ background-color: #8080808c;
+}
+
+.structure .container{
+ height: 155px;
+}
+
+.structure .footer-left{
+ line-height: 155px;
+}
+
+.structure .footer-left h2{
+ margin-bottom: 0;
+}
+
+.structure .footer-right{
+ text-align: right;
+ margin-top: 45px;
+}
+
+.structure .footer-right li{
+ color: grey;
+ font-size: 12px;
+ display: inline-block;
+ padding-right: 20px;
+}
+
+.structure .footer-right .text-style{
+ font-size: 12px;
+}
+
+.structure .footer-right div{
+ font-size: 16px;
+}
+
+
+
+.structure .footer-right i.fas.fa-caret-down{
+ padding-left: 50px;
+}
+
+.structure .selection::after{
+ content: "";
+ display: block;
+ height: 1px;
+ background-color: grey;
+ margin-top: 0px;
+}
+
+
 /* Help fixed */
 
 .help{
  position: fixed;
  bottom: 0;
- right: 15%;
+ right: 12%;
 }
 
 .help a{
